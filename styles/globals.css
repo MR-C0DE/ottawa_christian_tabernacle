@@ -1,0 +1,9 @@
+body, button{
+  font-family: "Shippori Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  letter-spacing: 1px;
+}
