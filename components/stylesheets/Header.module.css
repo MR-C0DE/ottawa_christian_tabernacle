@@ -56,9 +56,11 @@
     font-weight: 600; /* Renforcement de l'épaisseur de la police */
     transition: color 0.3s ease;
 
-    font-family: "Bad Script", cursive;
-    font-weight: 400;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
     font-style: normal;
+    font-size: .9em;
   }
   
   .Header nav ul li a:hover {

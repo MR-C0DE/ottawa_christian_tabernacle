@@ -44,3 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 https://fonts.google.com/selection/embed
 
 https://source.unsplash.com/1600x900/?church
+
+## Icon
+
+https://www.svgrepo.com

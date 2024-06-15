@@ -8,14 +8,19 @@ const Daily = () => {
             <h2>Hope</h2>
         </div>
         <div className={styles.bible_quote}>
-            <p>He that hath an ear, let him hear what the Spirit saith unto the churches.</p>
-            <span>-- ap 23.3 --</span>
+            <p>Which hope we have as an anchor of the soul, both sure and steadfast...</p>
+            <span>-- Hebrews 6:19 --</span>
         </div>
 
         <div className={styles.other_quote}>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, cum explicabo fuga, repudiandae tempore dolore qui ab sunt culpa laborum rem commodi, perspiciatis voluptatibus a earum ea ipsa animi? Sapiente!</p>
-            <span>-- Par Rev WMB</span>
+            <p>Isn't it beautiful when you can really anchor your soul into Christ, in such a place till you can get quiet before Him? And hear His Voice speaking to you, “I'm the Lord that healeth thee. I'm the Lord that giveth thee Eternal Life. I love thee. I knowed thee before the foundation of the world. I put thy name upon the Book, thou art Mine. Fear not, it's Me. Don't be afraid, I'm with you.” Then I sing:
+I've anchored my soul in a haven of rest,
+I'll sail the wild seas no more;
+The tempest may sweep o'er the wild, stormy deep;
+But in Jesus I'm safe evermore.
+Remember, the very Voice that speaks sweet to you, will condemn the sinner. The very flood that saved Noah, destroyed the sinner. See what I mean?</p>
+            <span>-- by Rev WMB</span>
 
         </div>
     </div>

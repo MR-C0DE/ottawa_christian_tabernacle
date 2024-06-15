@@ -18,7 +18,7 @@ export default function Services() {
       </Head>
       <Header />
       <main id="main">
-      <h3>Services</h3>
+        <h3>About us</h3>
       </main>
       <Footer />
     </LanguageProvider>

@@ -7,6 +7,7 @@ const Banner = () => {
   return (
     <div className={styles.Banner}>
       <div>
+      <img width={100} src="/cross.svg" alt="" />
         <h2>Welcome to our Church</h2> 
       </div>
 

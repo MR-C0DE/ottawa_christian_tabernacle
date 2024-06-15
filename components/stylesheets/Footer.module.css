@@ -1,13 +1,79 @@
 .Footer {
-    background-color: #fff;
-    border-top:1px solid #333;
-    color: rgb(86, 86, 86);
-    padding: 1.5rem 0;
-    text-align: center;
-    margin-top: 0rem;
-    font-size: 0.9rem;
-   
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  gap: 4rem;
+  padding: 20px;
+  background-color: #535353;
+  padding: 5rem 0;
+  color: #9f9f9f;
+  line-height: 1.4;
+}
 
-    /*box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);*/
-  }
+.footerTop, .footerBottom {
   
+}
+
+.footerText{
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.numemail{
+  margin-bottom: 2rem;
+}
+.address{
+  margin-bottom: 2rem;
+}
+.form p{
+  margin-bottom: 3rem;
+}
+.form form{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  position: relative;
+}
+.form form input[type="text"],.form form input[type="email"], .form form textarea{
+  width: 25rem;
+  background-color: #535353;
+  border: 1px solid #9f9f9f;
+  
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: .8em;
+  padding: .3rem;
+
+}
+
+.form form button{
+  width: 10rem;
+  border: none;
+  background-color: #fff;
+
+}
+
+.socialLinks{
+  margin-bottom: 3rem;
+}
+.socialLinks img {
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+}
+.policies{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.footerLink {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}

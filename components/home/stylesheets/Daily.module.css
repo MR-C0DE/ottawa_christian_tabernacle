@@ -15,7 +15,7 @@
 }
 
 .wordofday h2{
-    background-color: #cca361;
+    background-color: #aa864d;
     padding: 2rem;
     color: #fff;
     font-weight: bold;
@@ -24,12 +24,13 @@
 .bible_quote{
     text-align: center;
     padding: 3rem 2rem;
-    color:#cca361;
+    color:#aa864d;
 }
 
 .bible_quote p{
-    font-family: "Bad Script", cursive;
-    font-weight: 400;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
     font-style: normal;
     font-size: 2em;
     margin-bottom: 1rem;
@@ -45,18 +46,20 @@
 }
 
 .other_quote p{
-    font-size: 1em;
     line-height: 1.5;
     font-weight: 500;
     color: rgb(107, 107, 107);
-    font-family: "Bad Script", cursive;
-    font-weight: 400;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
     font-style: normal;
+    font-size: .9em;
+    margin-bottom: 1rem;
 
 }
 
 .other_quote span{
     font-size: .8em;
-
+    color: rgb(160, 160, 160);
 }
 

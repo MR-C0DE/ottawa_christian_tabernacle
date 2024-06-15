@@ -13,13 +13,13 @@ const Event_Content = () => {
               <p>June</p>
             </div>
             <div className={styles.event}>
-              <p className={styles.event_title}>Title of event</p>
+              <p className={styles.event_title}>Journée Communautaire</p>
               <div className={styles.time_location}>
                 <div className={styles.time}>
-                  <img width={50} src="/location.svg" alt="Location Icon" />
+                  <img width={50} src="/time.svg" alt="Location Icon" />
                   <p>15h00-20h30</p>
                 </div>
-                <div></div>
+                <div className={styles.separate}></div>
                 <div className={styles.location}>
                   <img width={50} src="/location.svg" alt="Location Icon" />
                   <p>500 Rue Terry Francine, San Francisco</p>
@@ -40,7 +40,6 @@ const Event = () => {
       <div className={styles.list_event}>
         <Event_Content />
       </div>
-
     </div>
   );
 };

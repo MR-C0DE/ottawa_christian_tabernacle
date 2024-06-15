@@ -28,17 +28,17 @@ const Header = () => {
               <Link href={"/services"}>Services</Link>
             </li>
             <li>
-              <Link href={"/history"}>Sermons</Link>
+              <Link href={"/sermons"}>Sermons</Link>
             </li>
             <li>
-              <Link href={"/contact"}>Gallery</Link>
+              <Link href={"/gallery"}>Gallery</Link>
             </li>
 
             <li>
-              <Link href={"/contact"}>Give</Link>
+              <Link href={"/give"}>Give</Link>
             </li>
             <li>
-              <Link href={"/contact"}>About Us</Link>
+              <Link href={"/about"}>About Us</Link>
             </li>
           </ul>
         </nav>
