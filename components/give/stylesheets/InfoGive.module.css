@@ -1,0 +1,58 @@
+.container{
+    text-align: center;
+    color: #6b6b6b;
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+
+.container h2{
+    font-weight: 600;
+    margin-bottom: 4rem;
+    font-size: 2em;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.info_list{
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    width: 25rem;
+    text-align: left;
+
+}
+
+
+
+.info_content{
+
+}
+.number{
+    color:#9D6200 ;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: .9em;
+    margin-bottom: 1rem;
+}
+.how{
+    color:#9D6200 ;
+    font-weight: 600;
+    font-size: 1.8em;
+    
+}
+.info_content hr{
+    width: 4rem;
+    margin: 1rem 0;
+    border: 2px solid #9D6200 ;
+    margin-bottom: 2rem;
+}
+.desc{
+    line-height: 1.5;
+}

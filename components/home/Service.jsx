@@ -19,8 +19,8 @@ const Service = () => {
             </div>
             <div>
                 <img width={50}  src="/circle.svg" alt="Children's Service Icon" />
-                <h3>Children's Service</h3>
-                <p>9:00 AM - 10:00 AM - A special service designed for children, with activities and lessons tailored to young minds.</p>
+                <h3>Online Service</h3>
+                <p>Thursday at 7:00 PM - Join us online for a midweek service that brings our community together virtually.</p>
             </div>
         </div>
     </div>

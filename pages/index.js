@@ -2,10 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
 import { LanguageProvider } from "@/components/contexts/LanguageContext";
-import UsefulLinks from "@/components/UsefulLinks";
 import Banner from "@/components/home/Banner";
-import Schedule from "@/components/home/Schedule";
-import Annonce from "@/components/home/Annonce";
 import Daily from "@/components/home/Daily";
 import Event from "@/components/home/Event";
 import Service from "@/components/home/Service";
@@ -24,7 +21,6 @@ export default function Home() {
         <Daily />
         <Event />
         <Service />
-
       </main>
       <Footer />
     </LanguageProvider>

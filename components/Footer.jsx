@@ -19,6 +19,15 @@ const Footer = () => {
                 ottawachristiantabernacle@gmail.com
               </a>
             </p>
+            <p>
+            support:
+              <a
+                href="mailto:studios.oct@gmail.com"
+                className={styles.footerLink}
+              >
+                studios.oct@gmail.com
+              </a>
+            </p>
           </div>
           <div className={styles.address}>
             <p>323 Montréal Rd, Vanier</p>
