@@ -14,8 +14,9 @@
   font-weight: 100;
   font-style: normal;
   font-size: .9em;
+  width: 9rem;
   background-color: #fff;
-  padding: 4px 49px;
+  padding: 4px 4px;
   cursor: pointer;
   color: #000;
   border: none;
@@ -46,7 +47,7 @@
   ); /* Déplacer légèrement vers le haut pour un effet de transition */
   transition: opacity 0.3s ease, transform 0.2s ease; /* Ajouter des transitions pour l'opacité et la position */
   z-index: 1000;
-  width: 8rem;
+  width: 10rem;
 }
 
 .menu:hover .languageMenu {

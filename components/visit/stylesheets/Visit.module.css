@@ -6,9 +6,48 @@
     margin-right: auto;
     position: relative;
     z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 3rem;
+    gap: 4rem;
+    color: #6b6b6b;
     
 }
 
+.container hr{
+    margin: 2rem 0;
+    width: 3rem;
+    border: 2px solid #9D6200;
+}
+
+.service{
+    width: 30rem;
+}
+
+.service h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.service p{
+    line-height: 1.4;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+.contact_info h3{
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #9D6200;
+}
 .wordofday{
     font-size: 3em;
     display: flex;

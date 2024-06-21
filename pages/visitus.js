@@ -2,12 +2,12 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
 import { LanguageProvider } from "@/components/contexts/LanguageContext";
-import UsefulLinks from "@/components/UsefulLinks";
-import Banner from "@/components/services/Banner";
-import Program from "@/components/services/Program";
-import Time from "@/components/services/Time";
+import Banner from "@/components/visit/Banner";
+import Visit from "@/components/visit/Visit";
+import Map from "@/components/visit/Map";
 
-export default function Services() {
+
+export default function VisitUs() {
   return (
     <LanguageProvider>
       <Head>
@@ -17,8 +17,10 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main id="main">
-      <h3>Services</h3>
+      <main>
+        <Banner />
+        <Visit />
+        <Map />
       </main>
       <Footer />
     </LanguageProvider>
