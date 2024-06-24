@@ -1,0 +1,30 @@
+.Banner {
+    background-image: url("/images/n1.jpg");
+    color: #fff;
+    padding: 4rem 2rem;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.Banner h2 {
+    font-size: 5em;
+    text-shadow: 3px 3px 6px #000000cc;
+    transition: font-size 0.5s ease;
+}
+
+.Banner p {
+    font-size: 1.5em;
+    line-height: 1.8;
+    transition: font-size 5s ease;
+}
+
+.Banner div {
+    transition: max-width 5s ease;
+}
