@@ -1,0 +1,27 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 60rem;
+    margin-top: -3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 100;
+}
+
+.quote {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.quote p{
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgb(107, 107, 107);
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: .9em;
+    margin-bottom: 1rem;
+}
+

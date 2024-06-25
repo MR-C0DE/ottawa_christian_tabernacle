@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 import Head from "next/head";
 import { LanguageProvider } from "@/components/contexts/LanguageContext";
 import UsefulLinks from "@/components/UsefulLinks";
-import Banner from "@/components/services/Banner";
-import Program from "@/components/services/Program";
-import Time from "@/components/services/Time";
+import Banner from "@/components/about/Banner";
+import About from "@/components/about/About";
+import Expert from "@/components/about/Expert";
 
 export default function Services() {
   return (
@@ -17,8 +17,10 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main id="main">
-        <h3>About us</h3>
+      <main>
+        <Banner/>
+        <About/>
+        <Expert/>
       </main>
       <Footer />
     </LanguageProvider>

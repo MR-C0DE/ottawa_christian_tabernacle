@@ -2,6 +2,9 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
 import { LanguageProvider } from "@/components/contexts/LanguageContext";
+import Banner from "@/components/sermons/Banner";
+import Sermons from "@/components/sermons/Sermons";
+import Lecture from "@/components/sermons/Lecture";
 
 
 export default function Services() {
@@ -14,8 +17,10 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main id="main">
-      <h3>Sermons</h3>
+      <main>
+      <Banner/>
+      <Sermons/>
+      <Lecture/>
       </main>
       <Footer />
     </LanguageProvider>

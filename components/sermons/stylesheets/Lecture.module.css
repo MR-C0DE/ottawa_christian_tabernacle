@@ -1,0 +1,93 @@
+.sermon h1{
+    margin: 23px;
+    padding-left: 13rem;
+    color: rgb(107, 107, 107);
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.sermon h2{
+    margin: 23px;
+    padding-left: 13rem;
+    color: rgb(107, 107, 107);
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: .9em;
+}
+
+.sermon_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sermon_item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60rem;
+    background: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sermon_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sermon_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sermon_duration {
+    font-size: 14px;
+    color: #666;
+}
+
+.sermon_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sermon_player {
+    margin: 10px 0;
+}
+
+.sermon_download {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .sermon_item {
+        padding: 10px;
+    }
+
+    .sermon_details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sermon_title {
+        font-size: 16px;
+    }
+
+    .download_button {
+        padding: 8px 16px;
+    }
+}
