@@ -20,7 +20,7 @@ export default function VisitUs() {
       <main>
         <Banner />
         <Visit />
-        <Map />
+      
       </main>
       <Footer />
     </LanguageProvider>
