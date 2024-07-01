@@ -11,18 +11,26 @@ import enContact from "/public/locales/en/contact.json";
 import frContact from "/public/locales/fr/contact.json";
 import enHome from "/public/locales/en/home.json";
 import frHome from "/public/locales/fr/home.json";
+import enFooter from "/public/locales/en/footer.json";
+import frFooter from "/public/locales/fr/footer.json";
+import enBanner from "./public/locales/en/banner.json";
+import frBanner from "./public/locales/fr/banner.json";
 
 const english = {
   ...enTranslation,
   ...enMenu,
   ...enContact,
-  ...enHome
+  ...enHome,
+  ...enFooter,
+  ...enBanner
 };
 const francais = {
   ...frTranslation,
   ...frMenu,
   ...frContact,
-  ...frHome
+  ...frHome,
+  ...frFooter,
+  ...frBanner
 };
 
 

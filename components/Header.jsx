@@ -10,6 +10,7 @@ import Menu from "./Menu";
 const Header = () => {
   
   const { t } = useTranslation();
+
   const { width } = useScreenSize();
   return (
     <div className={styles.Header}>
@@ -21,24 +22,24 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <Link href={"/"}>Home</Link>
+              <Link href={"/"}>{t("Home")}</Link>
             </li>
             <li>
               {" "}
-              <Link href={"/visitus"}>Visit Us</Link>
+              <Link href={"/visitus"}>{t("VisitUs")}</Link>
             </li>
             <li>
-              <Link href={"/sermons"}>Sermons</Link>
+              <Link href={"/sermons"}>{t("Sermons")}</Link>
             </li>
             <li>
-              <Link href={"/gallery"}>Gallery</Link>
+              <Link href={"/gallery"}>{t("Gallery")}</Link>
             </li>
 
             <li>
-              <Link href={"/give"}>Give</Link>
+              <Link href={"/give"}>{t("Give")}</Link>
             </li>
             <li>
-              <Link href={"/about"}>About Us</Link>
+              <Link href={"/about"}>{t("AboutUS")}</Link>
             </li>
           </ul>
         </nav>

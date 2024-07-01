@@ -1,6 +1,8 @@
 {
     "Home": "Accueil",
-    "Services": "Services",
-    "History": "Historique",
-    "Contact Us": "Contactez-nous"
+    "VisitUS": "Visitez-Nous",
+    "Sermons" : "Sermons",
+    "Gallery" : "Galerie",
+    "Give" : "Don",
+    "AboutUS": "À Propos"
 }
