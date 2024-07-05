@@ -1,11 +1,14 @@
 import styles from './stylesheets/Banner.module.css'
+import { useTranslation } from 'next-i18next';
 
 export default function Banner(){
+
+    const {t} = useTranslation();
 
     return (
         <div className={styles.Banner}>
             <div>
-                <h2>About Us</h2>
+                <h2>{t("bannerAbout")}</h2>
             </div>
         </div>
     )

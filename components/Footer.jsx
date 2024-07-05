@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./stylesheets/Footer.module.css";
+import { useTranslation } from "next-i18next";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const {t} = useTranslation();
 
   return (
     <footer className={styles.Footer}>
       <div className={styles.footerTop}>
-        <div className={styles.footerText}>Ottawa christian Tabernacle</div>
+        <div className={styles.footerText}>{t("organizationName")}</div>
         <div className={styles.contactInfo}>
           <div className={styles.numemail}>
             <p>+1 (613) 712-2184</p>
@@ -73,7 +75,7 @@ const Footer = () => {
               href="#"
               className={styles.footerLink}
             >
-              Terms & Conditions
+              {t("termsConditions")}
             </a>
           </p>
           <p>
@@ -81,7 +83,7 @@ const Footer = () => {
               href="#"
               className={styles.footerLink}
             >
-              Privacy Policy
+              {t("privacyPolicy")}
             </a>
           </p>
           <p>
@@ -89,13 +91,13 @@ const Footer = () => {
               href="#"
               className={styles.footerLink}
             >
-              Accessibility Statement
+              {t("accessibilityStatement")}
             </a>
           </p>
         </div>
 
         <p>
-          ©{currentYear} by Ottawa christian tabernacle. <br /> Powered and secured by{" "}
+          ©{currentYear} {t("copyright")} <br /> {t("poweredBy")}{" "}
           <a
             href="https://www.taskflow-labs.com"
             target="_blank"
@@ -108,12 +110,12 @@ const Footer = () => {
       </div>
       <div className={styles.footerBottom}>
         <div className={styles.form}>
-          <p>Write Us</p>
+          <p>{t("contactUs")}</p>
           <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
-            <textarea placeholder="Type your message here..." />
-            <button type="submit">Submit</button>
+            <input type="text" placeholder={t("name")} required />
+            <input type="email" placeholder={t("email")} required />
+            <textarea placeholder={t("messagePlaceholder")} />
+            <button type="submit">{t("submit")}</button>
           </form>
         </div>
       </div>
