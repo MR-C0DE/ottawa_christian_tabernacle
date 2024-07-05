@@ -9,7 +9,7 @@ import Series from "@/components/gallery/Series";
 import Album from "@/components/gallery/Album";
 import { useState } from "react";
 
-export default function Services() {
+export default function Gallery() {
   const [isOpenSeries, setIsOpenSeries] = useState(false);
   const [series, setSeries] = useState(null);
 

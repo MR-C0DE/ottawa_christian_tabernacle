@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Languages from "./Languages";
 import styles from "./stylesheets/Header.module.css";
 import { useTranslation } from "next-i18next";
-import { useLanguage } from "./contexts/LanguageContext";
 import Link from "next/link";
 import { useScreenSize } from "./contexts/ScreenSizeContext";
 import Menu from "./Menu";
@@ -26,7 +25,7 @@ const Header = () => {
             </li>
             <li>
               {" "}
-              <Link href={"/visitus"}>{t("VisitUs")}</Link>
+              <Link href={"/visitus"}>{t("VisitUS")}</Link>
             </li>
             <li>
               <Link href={"/sermons"}>{t("Sermons")}</Link>

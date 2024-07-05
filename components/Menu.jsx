@@ -33,20 +33,20 @@ const Menu = () => {
               </li>
               <li className={styles.MenuItem}>
                 {" "}
-                <Link href={"/visitus"}>Visit Us</Link>
+                <Link href={"/visitus"}>{t("VisitUS")}</Link>
               </li>
               <li className={styles.MenuItem}>
-                <Link href={"/sermons"}>Sermons</Link>
+                <Link href={"/sermons"}>{t("Sermons")}</Link>
               </li>
               <li className={styles.MenuItem}>
-                <Link href={"/gallery"}>Gallery</Link>
+                <Link href={"/gallery"}>{t("Gallery")}</Link>
               </li>
 
               <li className={styles.MenuItem}>
-                <Link href={"/give"}>Give</Link>
+                <Link href={"/give"}>{t("Give")}</Link>
               </li>
               <li className={styles.MenuItem}>
-                <Link href={"/about"}>About Us</Link>
+                <Link href={"/about"}>{t("AboutUS")}</Link>
               </li>
               <li className={styles.MenuItemBtn}>
                 <Languages />
