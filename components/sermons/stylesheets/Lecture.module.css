@@ -1,6 +1,12 @@
+.sermon{
+    max-width: 60rem;
+    margin: 1rem auto;
+
+}
+
 .sermon h1{
-    margin: 23px;
-    padding-left: 13rem;
+    margin-bottom: 23px;
+    
     color: rgb(107, 107, 107);
     font-family: "Playwrite AU NSW", cursive;
     font-optical-sizing: auto;
@@ -10,8 +16,8 @@
 }
 
 .sermon h2{
-    margin: 23px;
-    padding-left: 13rem;
+    margin-bottom: 23px;
+    
     color: rgb(107, 107, 107);
     font-family: "Playwrite AU NSW", cursive;
     font-optical-sizing: auto;
@@ -33,17 +39,23 @@
     flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
-    width: 60rem;
-    background: #f9f9f9;
-    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    width: 100%;
     text-decoration: none;
     color: inherit;
+    fill: #666;
+    
 }
 
 .sermon_item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-color: #eece9c;
+    color: #9d6200;
+    fill: #9d6200;
+}
+
+.play{
+    width: 50px;
 }
 
 .sermon_details {
@@ -60,7 +72,11 @@
 
 .sermon_title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 120;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .sermon_player {

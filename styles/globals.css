@@ -1,26 +1,11 @@
 body, button{
   font-family: "Playwrite AU NSW", cursive;
   font-optical-sizing: auto;
-  font-weight: 2z00;
+  font-weight: 100;
   font-style: normal;
 
 }
 
 p{
   letter-spacing: 1px;
-}
-#playwrite {
-  font-family: "Playwrite AU NSW", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-#main{
-  padding: 1rem 0;
-  text-align: center;
-  font-size: 2em;
-  padding: 1rem;
-  color: #333;
-  border: 2px solid #333;
 }

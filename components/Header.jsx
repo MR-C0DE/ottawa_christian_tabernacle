@@ -51,7 +51,6 @@ const Header = () => {
 
       {width <= 900 && (
       <div className={styles.Mini}>
-      <Languages />
         <Menu />
       </div>
       )}

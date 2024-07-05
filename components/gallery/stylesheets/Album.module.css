@@ -55,6 +55,12 @@
     overflow: hidden; 
 }
 
+.photo::before{
+ content: "";
+ background: rgba(0, 0, 0, 0.4);
+}
+
+
 
 .photo img {
     max-width: 100%;

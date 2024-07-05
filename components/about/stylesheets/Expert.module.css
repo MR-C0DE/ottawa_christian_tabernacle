@@ -3,7 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 20px;
+    
+    max-width: 60rem;
+    margin: 3rem auto;
 }
 
 .experience h2 {
@@ -15,15 +17,16 @@
 
 .experts {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem ;
+  
 }
 
 .expert {
     position: relative;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s;
+    text-align: left;
+    transition: transform .2s;
+    width: 210px;
 }
 
 .expert:hover {
@@ -31,14 +34,15 @@
 }
 
 .expert .image {
-    width: 230px;
-    height: auto;
-    border-radius: 5%;
+    width: 200px;
+    height: 250px;
+    object-fit: cover ;
+    border-radius: 2%;
 }
 
 .expert .name {
     font-weight: 700;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     color: rgb(107, 107, 107);
@@ -48,7 +52,7 @@
 }
 
 .expert .title {
-    font-size: 17.5px;
+    font-size: 14.5px;
     line-height: 1.5;
     font-weight: 500;
     color: rgb(107, 107, 107);
@@ -60,6 +64,7 @@
 
 .expert .contact {
     line-height: 1.5;
+    font-size: 14.5px;
     font-weight: 500;
     color: rgb(107, 107, 107);
     font-family: "Playwrite AU NSW", cursive;
@@ -73,34 +78,9 @@
     width: 250px;
 }
 
-.socialIcons {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border-radius: 10px;
-    gap: 5px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
 
-.socialIcons a {
-    display: block;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.5;
-    font-weight: 500;
-    color: rgb(107, 107, 107);
-    font-family: "Playwrite AU NSW", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-}
+
+
 
 .expert:hover .socialIcons {
     opacity: 1;
