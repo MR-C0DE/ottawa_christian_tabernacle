@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./stylesheets/Event.module.css";
+import { useTranslation } from "next-i18next";
 
 const Event_Content = () => {
   const e = [2, 3, 4];
@@ -33,9 +34,10 @@ const Event_Content = () => {
   );
 };
 const Event = () => {
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
-      <h2>Events to come</h2>
+      <h2>{t("eventTitleHome")}</h2>
 
       <div className={styles.list_event}>
         <Event_Content />

@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className={styles.Banner}>
       <div>
-        <h2>Our Memories</h2> 
+        <h2>{t("bannerGallery")}</h2> 
       </div>
 
 

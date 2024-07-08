@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "./stylesheets/Quote.module.css";
+import { useTranslation } from "next-i18next";
 
 const Quote = () => {
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
         <div className={styles.wordofday}>
@@ -10,10 +12,8 @@ const Quote = () => {
 
 
         <div className={styles.other_quote}>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum possimus fuga mollitia unde iste ea dolor reiciendis ab, laborum labore eveniet veniam, autem laboriosam nesciunt ducimus porro sed sint ipsam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto eos iure ea tempora quod harum ab autem! Reiciendis nostrum similique, consectetur consequuntur nulla dolorem animi quod quos adipisci cum?</p>
-
+          <p>{t("quote1Give")}</p>
+          <p>{t("quote2Give")}</p>
         </div>
     </div>
   )
