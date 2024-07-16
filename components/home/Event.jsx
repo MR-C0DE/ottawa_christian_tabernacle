@@ -7,7 +7,7 @@ const Event_Content = () => {
     <>
       {e.map((i) => {
         return (
-          <div className={styles.event_content}>
+          <div className={styles.event_content} key={i}>
             <div className={styles.date_event}>
               <p>0{i}</p>
               <p>June</p>
