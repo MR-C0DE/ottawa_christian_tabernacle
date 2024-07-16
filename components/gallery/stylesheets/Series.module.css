@@ -1,0 +1,54 @@
+.container {
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.9rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  color: #6b6b6b;
+}
+
+.memory {
+  margin-bottom: 6rem;
+}
+.memory_title{
+    font-size: 1.7em;
+    margin-bottom: .5rem;
+    font-weight: 200;
+}
+
+.memory_location{
+    margin-bottom: 2rem;
+}
+.series {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.series:hover {
+  cursor: pointer;
+  border-color: #eece9c;
+  color: #9d6200;
+}
+.series span{
+    font-size: .8em;
+}
+.series_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.series_content div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.series_content div img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}

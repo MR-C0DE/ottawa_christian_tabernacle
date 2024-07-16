@@ -1,14 +1,12 @@
 
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
 import { useLanguage } from './contexts/LanguageContext';
 import styles from "./stylesheets/Language.module.css";
 
 
 const Languages = () => {
   const router = useRouter();
-  const { t } = useTranslation();
   const { language, setLanguage } = useLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -18,9 +16,6 @@ const Languages = () => {
     setMenuOpen(false); // Close the menu after selection
   };
 
-  useEffect(() => {
-    console.log(t("welcome"), language);
-  }, [language, t]);
 
   return (
     <div className={styles.Language}>

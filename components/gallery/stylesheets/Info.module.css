@@ -1,0 +1,105 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    max-width: 60rem;
+    margin-top: -3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 3rem;
+    gap: 4rem;
+    color: #6b6b6b;
+    
+}
+
+.container hr{
+    margin: 2rem 0;
+    width: 3rem;
+    border: 2px solid #9D6200;
+}
+
+.service{
+    width: 30rem;
+}
+
+.service h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.container p{
+    line-height: 1.4;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+.contact_info h3{
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #9D6200;
+}
+.wordofday{
+    font-size: 3em;
+    display: flex;
+}
+
+.wordofday h2{
+    background-color: #9D6200;
+    padding: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bible_quote{
+    text-align: center;
+    padding: 3rem 2rem;
+    color:#9D6200;
+}
+
+.bible_quote p{
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+
+.bible_quote span{
+    font-size: 1rem;
+}
+
+.other_quote{
+    text-align: center;
+    padding: 1rem;
+}
+
+.other_quote p{
+    line-height: 1.5;
+    font-weight: 500;
+    color: #6b6b6b;
+    font-family: "Playwrite AU NSW", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: .9em;
+    margin: 2rem 0;
+
+}
+
+.other_quote span{
+    font-size: .8em;
+    color: rgb(160, 160, 160);
+}
+

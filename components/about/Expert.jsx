@@ -20,7 +20,7 @@ const expertsData = [
     title: 'Associate Pastor',
     email: 'example@mail.com',
     phone: '+0123456789',
-    profileImage: '/images/n3.jpg',
+    profileImage: '/images/n4.jpg',
     width: 500, 
     height: 500,
   },
@@ -46,7 +46,7 @@ const expertsData = [
 
 const ExperienceSection = () => {
   return (
-    <section className={styles.experience}>
+    <div className={styles.experience}>
       <h2>Our Pastors</h2>
       <div className={styles.experts}>
         {expertsData.map((expert, index) => (
@@ -58,12 +58,7 @@ const ExperienceSection = () => {
               width={expert.width}
               height={expert.height}
             />
-            <div className={styles.socialIcons}>
-              <Link href="#"><FontAwesomeIcon icon={faFacebook} /></Link>
-              <Link href="#"><FontAwesomeIcon icon={faTwitter} /></Link>
-              <Link href="#"><FontAwesomeIcon icon={faLinkedin} /></Link>
-              <Link href="#"><FontAwesomeIcon icon={faInstagram} /></Link>
-            </div>
+  
             <p className={styles.name}>{expert.name}</p>
             <p className={styles.title}>{expert.title}</p>
             <p className={styles.contact}>{expert.email}</p>
@@ -71,7 +66,7 @@ const ExperienceSection = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

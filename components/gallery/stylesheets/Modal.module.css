@@ -1,0 +1,96 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(21, 21, 21, 0.8);
+    z-index: 1000;
+
+}
+.modal_head{
+    padding: 1rem;
+}
+.modal_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    height: 89vh;
+    overflow: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    
+
+}
+
+.modalContentHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    padding: 1rem ;
+}
+
+.modalContentHead > div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.modalContentHead button{
+    background-color: #333;
+    border: none;
+    padding: .3rem 1rem;
+    color: #fff;
+}
+.modalContentHead img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.modalContentHead > div div p{
+   margin: 1px;
+
+}
+
+.modalImage {
+    height: 75%;
+   
+
+   
+}
+
+.closeButton {
+
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navButton {
+    padding: 8px 16px;
+    margin: 0 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

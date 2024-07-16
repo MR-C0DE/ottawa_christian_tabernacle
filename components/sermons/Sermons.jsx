@@ -1,16 +1,13 @@
 import styles from './stylesheets/Sermons.module.css'
-
+import { useTranslation } from 'next-i18next'
 export default function Sermons() {
-
+    const {t} = useTranslation();
     return (
         <div className={styles.container}>
 
             <div className={styles.quote}>
 
-                <p>
-                    Bienvenue sur notre page des programmes de culte. Ici, vous pourrez retrouver nos prédications, vous inspirer et vous édifier.
-                    Cliquez ici pour écouter nos messages inspirants et découvrir la sagesse de la parole de Dieu
-                </p>
+                <p>{t("quoteSermons")}</p>
 
             </div>
         </div>
