@@ -1,0 +1,62 @@
+.sideMenu {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.menuFirst {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuSecond {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuItem {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.menuItem:hover {
+    background-color: #34495e;
+}
+
+.help{
+    color: #747677;
+}
+
+.log{
+    color: #c2c4c7;
+}
+
+.icon {
+    margin-right: 10px;
+}

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import LoginAdmin from "./components/login/login";
+import LoginAdmin from "./components/login/Login";
 
 
 export default function Login() {

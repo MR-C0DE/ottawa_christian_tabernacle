@@ -1,5 +1,7 @@
 
 import Head from "next/head";
+import Sidemenu from "./components/home/Sidemenu";
+import Home from "./components/home/Home";
 
 
 export default function Services() {
@@ -13,7 +15,7 @@ export default function Services() {
       </Head>
      
       <main >
-        Program
+        <Sidemenu/>
       </main>
     
     </>
