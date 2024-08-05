@@ -13,7 +13,7 @@ export default function Login() {
                 <h1><span>Hello</span>, Guyss!</h1>
                 <form>
                     <h2>Login</h2>
-                    <input type="email" name="email" placeholder="Enter your email" />
+                    <input type="email" name="username" placeholder="Enter your username" />
                     <input type="password" name="password" placeholder="Enter your password" />
                     <button type="submit" className={styles.btn}>Login</button>
                 </form>
